@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -54,11 +54,9 @@ const SpidermanPage = ({ data }) => (
         <i>Written by Will McGhee  <br />
         Directed by Elizaveta Kravchenko</i> <br /> <br />
 
-        <a href="http://wesleyanargus.com/2016/12/05/spider-man-turn-up-the-light-is-hilariously-disorienting/" target="_blank" rel="noopener noreferrer"> Read the review by the Wesleyan Argus </a><br /><br />
+        <a href="http://wesleyanargus.com/2016/12/05/spider-man-turn-up-the-light-is-hilariously-disorienting/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus</a>.<br /><br />
         
-        <p>Spiderman, Turn up the Light is a fun, bizarre student-written musical featuring songs from Imagine Dragons album Night Vision and student-written songs. The use of puppetry not only capturarizes the human personalities and the potential of the superhero, separating the humans and their counterparts. </p>
-
-        <p> “Hilariously Disorienting” <div style={{textAlign: `right`}}><i>The Wesleyan Argus</i></div></p>
+        <p>"Spiderman, Turn up the Light" is a fun, bizarre student-written musical featuring songs from Imagine Dragons album Night Vision and student-written songs. The use of puppetry not only capturarizes the human personalities and the potential of the superhero, separating the humans and their counterparts. </p>
 
         <b>CAST</b> <br />
         Isaac Jacobs<br />

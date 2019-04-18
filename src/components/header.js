@@ -31,7 +31,7 @@ const Header = () => (
         <span style={{
           fontWeight: 300,
           color: `#000000`}}> 
-          Theater Maker | Teaching Artist 
+          Theater Maker
         </span>
       </div>
 
@@ -53,14 +53,6 @@ const Header = () => (
           activeClassName="navLinkActive"
         >
           Projects
-        </Link>
-        &nbsp; &nbsp; &nbsp; &nbsp;
-        <Link
-          to="/resume"
-          className="navLink"
-          activeClassName="navLinkActive"
-        >
-          Resume
         </Link>
         &nbsp; &nbsp; &nbsp; &nbsp;
         <Link

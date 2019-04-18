@@ -6,6 +6,7 @@ import "./layout.css"
 
 import email from "../images/email.png"
 import linkedin from "../images/linkedin.png"
+import instagram from "../images/instagram.png"
 
 const Layout = ({ children }) => (
 
@@ -34,10 +35,18 @@ const Layout = ({ children }) => (
 
         &nbsp; &nbsp; &nbsp; &nbsp;
 
-        <a href="https://www.linkedin.com/in/unique-wenxuan-xue/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/wenxuanxue/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin}  height="20" style={{
           position: `relative`,
           bottom: `2px`,}} alt="linkedin" className="footerLink" />
+        </a>
+
+        &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="https://www.instagram.com/wenxuanxue/" target="_blank" rel="noopener noreferrer">
+          <img src={instagram} alt="instagram" height="20" style={{
+          position: `relative`,
+          bottom: `2px`,}} className="footerLink" />
         </a>
         <br />
         Copyright {new Date().getFullYear()} Wenxuan Xue. All Rights Reserved.

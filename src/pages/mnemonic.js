@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -73,7 +73,7 @@ const MnemonicPage = ({ data }) => (
         <i>Created by Complicite<br />
         Directed by Ali Jamali</i><br /><br />
 
-        <p>Virgil is desperately longing for Alice, who abruptly disappeared in search of his thought-to-be-dead father. A mummified corpse, dating back to more than 5000 years ago, is discovered in the mountains. As each character remembers the events of the past, connections appear between the two narratives. Mnemonic (1999), by the British theater company Complicite, incorporates its two parallel stories to explore the act of remembering and the fragmented nature of memory. This thesis production is directed by Ali Jamali '17, in partial fulfillment for Honors in Theater.</p>
+        <p>Virgil is desperately longing for Alice, who abruptly disappeared in search of his thought-to-be-dead father. A mummified corpse, dating back to more than 5000 years ago, is discovered in the mountains. As each character remembers the events of the past, connections appear between the two narratives. "Mnemonic" (1999), by the British theater company Complicite, incorporates its two parallel stories to explore the act of remembering and the fragmented nature of memory. This thesis production is directed by Ali Jamali '17, in partial fulfillment for Honors in Theater.</p>
 
         <b>CAST</b> <br />
         Ray Jordan Achan<br />

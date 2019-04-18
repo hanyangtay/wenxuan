@@ -1,9 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
 
 export const query = graphql`
   query {
@@ -23,7 +22,7 @@ export const query = graphql`
           }
         }
 
-        image3: file(relativePath: { eq: "halliday_mr-burns-28.jpg" }) {
+        image3: file(relativePath: { eq: "halliday_mr-burns_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -31,7 +30,7 @@ export const query = graphql`
           }
         }
 
-        image4: file(relativePath: { eq: "mnemonic_sonya_sternlieb_1.jpg" }) {
+        image4: file(relativePath: { eq: "mnemonic_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -39,7 +38,7 @@ export const query = graphql`
           }
         }
 
-        image5: file(relativePath: { eq: "spiderman_william_halliday2.jpg" }) {
+        image5: file(relativePath: { eq: "spiderman_william_halliday_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -47,7 +46,7 @@ export const query = graphql`
           }
         }
 
-        image6: file(relativePath: { eq: "right_and_left_2.jpg" }) {
+        image6: file(relativePath: { eq: "right_and_left_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -62,6 +61,7 @@ export const query = graphql`
             }
           }
         }
+
       }
 `
 
@@ -71,11 +71,10 @@ const ProjectPage = ({ data }) => (
     
     <h1>Upcoming Projects</h1>
       <ul>
-        <li> <b>Chase</b>, Playwright <br />
-          <i>Theater Department Honors Playwriting Thesis</i> </li>
-        <li> <b>Shades Theater Festival</b>, Producer <br /></li>
-        <li> <b>My Life as a Teenage Robot</b>, Composer <br /> 
-          <i> Book & Lyrics by Zoe Kaplan </i> </li>
+        <li> <b>sometime, perfect</b>, Playwright <br />
+          <i>Theater Department Honors Playwriting Thesis</i> <br />
+After a recent breakup, Chase seeks healing by narrating stories, and his past with his ex-boyfriend Jay starts to unfold. Through the spell of his music, Chase relives his past over and over again, where he can finally be happy and content. Chase arrives at the threshold between the past and the present, fantasy and reality. What choice will he make? Which world will he belong to? 
+        </li>
       </ul>
     <br />
 
@@ -93,7 +92,7 @@ const ProjectPage = ({ data }) => (
       </Link>
       <Link to="/mr-burns-a-post-electric-play" className="projectImgWrapper">
         <Img fixed={data.image3.childImageSharp.fixed} />
-        <div className="projectTitle"> Mr. Burns, A Post Electric Play</div>
+        <div className="projectTitle"> Mr. Burns, A Post Electric Play </div>
       </Link>
       <Link to="/mnemonic" className="projectImgWrapper">
         <Img fixed={data.image4.childImageSharp.fixed} />

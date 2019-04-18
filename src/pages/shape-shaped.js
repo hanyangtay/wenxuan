@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -65,7 +65,7 @@ const ShapePage = ({ data }) => (
         <b> Role: Sound Designer </b> <br />
         <i>Directed by Yiyi Liu</i><br /><br />
 
-        <p> 形态Shape: Shaped is an immersive, multimedia physical theater show conceived and directed by Yiyi Liu at various locations in Beijing including China Art Gallery  and 798 Art District, with a group of young Chinese actors. </p>
+        <p> "形态Shape: Shaped" is an immersive, multimedia physical theater show conceived and directed by Yiyi Liu at various locations in Beijing including China Art Gallery  and 798 Art District, with a group of young Chinese actors. </p>
 
 
 

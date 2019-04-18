@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -92,15 +92,11 @@ const EdithPage = ({ data }) => (
         <br />
         <Img fluid={data.image3.childImageSharp.fluid} />
         <br />
-        <Img fluid={data.image4.childImageSharp.fluid} />
-        <br />
         <Img fluid={data.image1.childImageSharp.fluid} />
         <br />
         <Img fluid={data.image5.childImageSharp.fluid} />
         <br />
         <Img fluid={data.image6.childImageSharp.fluid} />
-        <br />
-        <Img fluid={data.image7.childImageSharp.fluid} />
         <br />
         <Img fluid={data.image8.childImageSharp.fluid} />
         <br />
@@ -110,9 +106,10 @@ const EdithPage = ({ data }) => (
         <h1>Edith Can Shoot Things and Hit Them</h1>
 
         <b> Role: Director </b> <br />
-        <b> Co-director: Amira Leila S. </b> <br /><br />
+        <b> Co-director: Amira Leila S. </b> <br />
+        <i>Written by A. Rey Pamatmat</i> <br /> <br />
 
-        <a href="http://wesleyanargus.com/2018/11/12/edith-contrasts-childhood-innocence-and-angst-to-dramatic-effect/" target="_blank" rel="noopener noreferrer"> Read the review by the Wesleyan Argus </a><br /><br />
+        <a href="http://wesleyanargus.com/2018/11/12/edith-contrasts-childhood-innocence-and-angst-to-dramatic-effect/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus</a>.<br /><br />
 
         <p>“Growing up, I never found a way to reconcile my queer and Asian identities which had been constantly conflicting with one another. However, when I first came across this play last year, I finally realized that at least I’m not alone in this quest and there’s hope for me to find a sense of belonging that once seemed distant to me. This play is unequivocally queer and Asian American, and also deeply human. It’s essentially a coming-of-age story about three kids trying to construct a family of their own against all odds from the outside world. Witnessing the growth of these three characters- Edith, Kenny and Benji has inspired and will continue inspiring me to face the chaotic world, with faith.” <br /><div style={{textAlign: `right`}}><i>Wenxuan Xue</i></div></p>
   
@@ -126,16 +123,16 @@ const EdithPage = ({ data }) => (
         Dabin Shin<br /><br />
 
         <b>ARTISTIC TEAM</b> <br />
-        Directors - Wenxuan Xue, Amira Leila S.<br />
-        Stage Managers - Susanna Kim, Jordan K. Legaspi<br />
-        Events Coordinator - Teresa Naval<br />
-        Dramaturg - Nathan Pugh<br />
-        Scenic Designer - Daniel Gordon<br />
-        Props Designer - Ariel Deutsch<br />
-        Sound Designer - Adam Munawar Rahman<br />
-        Lighting Designer - Hope Fourie<br />
-        Costume Designer - Helen Wang<br />
-        Poster Designers - Maxine Go, Philippe Bungabong<br /><br />
+        Directors: Wenxuan Xue, Amira Leila S.<br />
+        Stage Managers: Susanna Kim, Jordan K. Legaspi<br />
+        Events Coordinator: Teresa Naval<br />
+        Dramaturg: Nathan Pugh<br />
+        Scenic Designer: Daniel Gordon<br />
+        Props Designer: Ariel Deutsch<br />
+        Sound Designer: Adam Munawar Rahman<br />
+        Lighting Designer: Hope Fourie<br />
+        Costume Designer: Helen Wang<br />
+        Poster Designers: Maxine Go, Philippe Bungabong<br /><br />
 
         Photos by Thao Phan<br />
 

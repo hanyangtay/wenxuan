@@ -62,7 +62,7 @@ export const query = graphql`
           }
         }
 
-        image8: file(relativePath: { eq: "sometime_perfect_cover.jpg" }) {
+        image8: file(relativePath: { eq: "sometime_perfect_cover_cropped.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed

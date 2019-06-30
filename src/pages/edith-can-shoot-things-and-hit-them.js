@@ -109,7 +109,7 @@ const EdithPage = ({ data }) => (
         <b> Co-director: Amira Leila S. </b> <br />
         <i>Written by A. Rey Pamatmat</i> <br /> <br />
 
-        <a href="http://wesleyanargus.com/2018/11/12/edith-contrasts-childhood-innocence-and-angst-to-dramatic-effect/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus</a>.<br /><br />
+        <a href="http://wesleyanargus.com/2018/11/12/edith-contrasts-childhood-innocence-and-angst-to-dramatic-effect/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus.</a><br /><br />
 
         <p>“Growing up, I never found a way to reconcile my queer and Asian identities which had been constantly conflicting with one another. However, when I first came across this play last year, I finally realized that at least I’m not alone in this quest and there’s hope for me to find a sense of belonging that once seemed distant to me. This play is unequivocally queer and Asian American, and also deeply human. It’s essentially a coming-of-age story about three kids trying to construct a family of their own against all odds from the outside world. Witnessing the growth of these three characters- Edith, Kenny and Benji has inspired and will continue inspiring me to face the chaotic world, with faith.” <br /><div style={{textAlign: `right`}}><i>Wenxuan Xue</i></div></p>
   

@@ -62,26 +62,52 @@ export const query = graphql`
           }
         }
 
+        image8: file(relativePath: { eq: "sometime_perfect_cover.jpg" }) {
+          childImageSharp {
+            fixed(width: 280, height: 280) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+
+        image9: file(relativePath: { eq: "borderline_cover.jpg" }) {
+          childImageSharp {
+            fixed(width: 280, height: 280) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+
+        image10: file(relativePath: { eq: "pmu_cover.jpg" }) {
+          childImageSharp {
+            fixed(width: 280, height: 280) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+
       }
 `
 
 const ProjectPage = ({ data }) => (
   <Layout>
     <SEO title="Projects" keywords={[`wenxuan`, `theater`, `theatre`, `play`, `actor`, `projects`]} />
-    
-    <h1>Upcoming Projects</h1>
-      <ul>
-        <li> <b>sometime, perfect</b>, Playwright <br />
-          <i>Theater Department Honors Playwriting Thesis</i> <br />
-After a recent breakup, Chase seeks healing by narrating stories, and his past with his ex-boyfriend Jay starts to unfold. Through the spell of his music, Chase relives his past over and over again, where he can finally be happy and content. Chase arrives at the threshold between the past and the present, fantasy and reality. What choice will he make? Which world will he belong to? 
-        </li>
-      </ul>
-    <br />
 
     <h1>Projects</h1>
 
     <div id="projects">
-
+      <Link to="/sometime-perfect" className="projectImgWrapper">
+        <Img fixed={data.image8.childImageSharp.fixed} />
+        <div className="projectTitle"> sometime, perfect </div>
+      </Link>
+      <Link to="/borderline" className="projectImgWrapper">
+        <Img fixed={data.image9.childImageSharp.fixed} />
+        <div className="projectTitle"> Borderline </div>
+      </Link>
+      <Link to="/peace-the-massacre-and-the-umbrella" className="projectImgWrapper">
+        <Img fixed={data.image10.childImageSharp.fixed} />
+        <div className="projectTitle"> Peace, the Massacre, and the Umbrella </div>
+      </Link>
       <Link to="/the-clitorish" className="projectImgWrapper">
         <Img fixed={data.image1.childImageSharp.fixed} />
         <div className="projectTitle"> The Clitorish </div>
@@ -114,4 +140,12 @@ After a recent breakup, Chase seeks healing by narrating stories, and his past w
   </Layout>
 )
 
+
+// <h1>Upcoming Projects</h1>
+//    <ul>
+//      <li><b>PEER Experience Exchange Rostrum</b>, Hunan, China <br />
+//      <i>Volunteer Teacher in Hunan, China </i>
+//        Wenxuan will be teaching a seminar course for Chinese high school students in a under-developed region in Hunan this July. The seminar is titled “Life as Drama: Making Performance Art” and will cover  the histories, theories as well as the makings of performance arts. </li>
+//    </ul>
+//  <br />
 export default ProjectPage

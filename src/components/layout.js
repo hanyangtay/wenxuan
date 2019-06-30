@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
           margin: `50px`,
         }}>
 
-        <a href="mailto:wxue@wesleyan.edu" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:wenxuanarts@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={email} width="24" height="24" alt="email"  className="footerLink" />
         </a>
 

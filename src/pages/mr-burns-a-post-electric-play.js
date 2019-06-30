@@ -83,7 +83,7 @@ const BurnsPage = ({ data }) => (
         <i>Written by Anne Washburn & Michael Friedman <br />
         Directed by Pirronne Yousefzadeh</i> <br /> <br />
 
-        <a href="http://wesleyanargus.com/2018/11/26/mr-burns-is-a-darkly-surreal-tribute-to-the-power-of-narrative/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus</a>.<br /><br />
+        <a href="http://wesleyanargus.com/2018/11/26/mr-burns-is-a-darkly-surreal-tribute-to-the-power-of-narrative/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus.</a><br /><br />
         
         <p>“Mr. Burns, a post-electric play” reminds us that amidst environmental disaster and the collapse of civilization, we turn to art and entertainment and our ability to tell stories to survive. Whether it’s an episode of “The Simpsons,” or a liberal arts college production of an experimental play, or an episode of “The Simpsons” within a liberal arts college production of an experimental play, it is the telling and retelling of stories that allow us to reconcile our fears and anxieties about the future and endure.” <div style={{textAlign: `right`}}><i>Allison Hsu, The Wesleyan Argus</i></div></p>
 

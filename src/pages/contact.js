@@ -29,7 +29,7 @@ const ContactPage = ({ data }) => (
       <div>
         <h1>Contact</h1>
 
-        <p>Feel free to reach me at <a href="mailto:wxue@wesleyan.edu">wxue@wesleyan.edu</a>.</p>
+        <p>Feel free to reach me at <a href="mailto:wenxuanarts@gmail.com">wenxuanarts@gmail.com</a>.</p>
 
 
       </div>

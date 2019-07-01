@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wenxuan Xue`,
-    description: `Wenxuan is an international-based theater maker and teaching artist.`,
+    description: `Wenxuan Xue is an international theater maker, arts administrator, and teaching artist based in New York.`,
     author: `@hanyangtay`,
   },
   plugins: [

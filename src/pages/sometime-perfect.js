@@ -71,6 +71,7 @@ const SometimePerfectPage = ({ data }) => (
         <p>After a recent breakup, Chase seeks healing by narrating stories, and his past with his ex-boyfriend Jay starts to unfold. Through the spell of his music, Chase relives his past over and over again, where he can finally be happy and content. Chase arrives at the threshold between the past and the present, fantasy and reality. What choice will he make? Which world will he belong to?</p>
 
         <b>CAST</b> <br />
+        Shuyuan Liu<br />
         Franklin Ribli<br />
         Yuki Yu<br />
         Estella Zeng<br /><br />

@@ -54,14 +54,6 @@ const Header = () => (
         >
           Projects
         </Link>
-        &nbsp; &nbsp; &nbsp; &nbsp;
-        <Link
-          to="/contact"
-          className="navLink"
-          activeClassName="navLinkActive"
-        >
-          Contact
-        </Link>
       </div>
 
     </div>

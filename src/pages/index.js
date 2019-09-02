@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => (
     >
       <div>
         <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-        <span style={{fontSize:"12px"}}><i>Photo by Nina Wurtzel Photography</i></span>
+        <span style={{fontSize:"12px"}}><i>Photo by Marianna Sbordone</i></span>
       </div>
       <div>
         <h1>About</h1>
@@ -60,6 +60,8 @@ const IndexPage = ({ data }) => (
         <p>Wenxuan Xue is an international theater maker, arts administrator, and teaching artist based in New York. Recently graduated from Wesleyan University, he is currently working as a Communications Apprentice at <a href="http://www.larktheatre.org" target="_blank" rel="noopener noreferrer">the Lark.</a></p>
 
         <p>He is committed to creating bridges across cultures and highlighting stories beyond political, social, and national boundaries. He firmly believes that theater, as both a reflection and an imagination of humanity, should be and must be transnational, inclusive, and diverse. </p>
+
+        <p>Feel free to reach him at <a href="mailto:wenxuanarts@gmail.com">wenxuanarts@gmail.com</a>.</p>
 
         <p>For more information about his experiences, please check his resumes below: </p>
 

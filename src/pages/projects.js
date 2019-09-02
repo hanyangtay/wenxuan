@@ -6,7 +6,8 @@ import Img from "gatsby-image"
 
 export const query = graphql`
   query {
-        image1: file(relativePath: { eq: "clitorish_lloyd_mulvey_2.png" }) {
+
+        image1: file(relativePath: { eq: "life_as_drama_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -46,7 +47,7 @@ export const query = graphql`
           }
         }
 
-        image6: file(relativePath: { eq: "right_and_left_cover.jpg" }) {
+        image6: file(relativePath: { eq: "maggie_cover.jpg" }) {
           childImageSharp {
             fixed(width: 280, height: 280) {
               ...GatsbyImageSharpFixed
@@ -70,22 +71,6 @@ export const query = graphql`
           }
         }
 
-        image9: file(relativePath: { eq: "borderline_cover.jpg" }) {
-          childImageSharp {
-            fixed(width: 280, height: 280) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-
-        image10: file(relativePath: { eq: "pmu_cover.jpg" }) {
-          childImageSharp {
-            fixed(width: 280, height: 280) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-
       }
 `
 
@@ -96,21 +81,17 @@ const ProjectPage = ({ data }) => (
     <h1>Projects</h1>
 
     <div id="projects">
+      <Link to="/life-as-drama" className="projectImgWrapper">
+        <Img fixed={data.image1.childImageSharp.fixed} />
+        <div className="projectTitle"> Life As Drama: Making Performance Art</div>
+      </Link>
+      <Link to="/maggie" className="projectImgWrapper">
+        <Img fixed={data.image6.childImageSharp.fixed} />
+        <div className="projectTitle"> Maggie </div>
+      </Link>
       <Link to="/sometime-perfect" className="projectImgWrapper">
         <Img fixed={data.image8.childImageSharp.fixed} />
         <div className="projectTitle"> sometime, perfect </div>
-      </Link>
-      <Link to="/borderline" className="projectImgWrapper">
-        <Img fixed={data.image9.childImageSharp.fixed} />
-        <div className="projectTitle"> Borderline </div>
-      </Link>
-      <Link to="/peace-the-massacre-and-the-umbrella" className="projectImgWrapper">
-        <Img fixed={data.image10.childImageSharp.fixed} />
-        <div className="projectTitle"> Peace, the Massacre, and the Umbrella </div>
-      </Link>
-      <Link to="/the-clitorish" className="projectImgWrapper">
-        <Img fixed={data.image1.childImageSharp.fixed} />
-        <div className="projectTitle"> The Clitorish </div>
       </Link>
       <Link to="/edith-can-shoot-things-and-hit-them" className="projectImgWrapper">
         <Img fixed={data.image2.childImageSharp.fixed} />
@@ -127,10 +108,6 @@ const ProjectPage = ({ data }) => (
       <Link to="/spiderman-turn-up-the-light" className="projectImgWrapper">
         <Img fixed={data.image5.childImageSharp.fixed} />
         <div className="projectTitle"> Spiderman, Turn up the Light </div>
-      </Link>
-      <Link to="/gu-jiani-right-left-us-tour" className="projectImgWrapper">
-        <Img fixed={data.image6.childImageSharp.fixed} />
-        <div className="projectTitle"> Gu Jiani Right/Left U.S. Tour </div>
       </Link>
       <Link to="/shape-shaped" className="projectImgWrapper">
         <Img fixed={data.image7.childImageSharp.fixed} />

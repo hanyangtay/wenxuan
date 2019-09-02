@@ -48,14 +48,6 @@ const Header = () => (
         </Link>
         &nbsp; &nbsp; &nbsp; &nbsp;
         <Link
-          to="/resume"
-          className="navLink"
-          activeClassName="navLinkActive"
-        >
-          Resume
-        </Link>
-        &nbsp; &nbsp; &nbsp; &nbsp;
-        <Link
           to="/projects"
           className="navLink"
           activeClassName="navLinkActive"

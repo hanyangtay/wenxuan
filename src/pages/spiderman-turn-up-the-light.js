@@ -54,9 +54,11 @@ const SpidermanPage = ({ data }) => (
         <i>Written by Will McGhee  <br />
         Directed by Elizaveta Kravchenko</i> <br /> <br />
 
-        <a href="http://wesleyanargus.com/2016/12/05/spider-man-turn-up-the-light-is-hilariously-disorienting/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus.</a><br /><br />
+        <p><a href="http://wesleyanargus.com/2016/12/05/spider-man-turn-up-the-light-is-hilariously-disorienting/" target="_blank" rel="noopener noreferrer"> Read the review by Wesleyan Argus.</a></p>
         
-        <p>"Spiderman, Turn up the Light" is a fun, bizarre student-written musical featuring songs from Imagine Dragons album Night Vision and student-written songs. The use of puppetry not only capturarizes the human personalities and the potential of the superhero, separating the humans and their counterparts. </p>
+        <p>"Spiderman, Turn up the Light" is a fun, bizarre student-written musical featuring songs from Imagine Dragons album <i>Night Vision</i> and student-written songs. The use of puppetry not only capturarizes the human personalities and the potential of the superhero, separating the humans and their counterparts. </p>
+
+        <p><i>"Hilariously disorienting"</i> - The Wesleyan Argus</p>
 
         <b>CAST</b> <br />
         Isaac Jacobs<br />

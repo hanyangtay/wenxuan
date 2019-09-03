@@ -80,8 +80,7 @@ const MaggiePage = ({ data }) => (
         <Img fluid={data.image6.childImageSharp.fluid} />
       </div>
       <div>
-        <h1>Life As Drama: Making Performance Art
-        <br />人生如戏： 行为艺术表演创作</h1>
+        <h1>Maggie</h1>
 
         <b>Role: Director </b><br />
         <i>Written by Nathan Liu</i><br />
